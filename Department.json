@@ -1,0 +1,19 @@
+{
+  "title": "department",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": ["int64"],
+      "name": "id"
+    },
+    "name": {
+      "type": ["string", "null"],
+      "name": "name"
+    },
+    "idAddress": {
+      "type": ["int64", "null"],
+      "name": "id_address"
+    }
+  },
+  "required": ["id"]
+}

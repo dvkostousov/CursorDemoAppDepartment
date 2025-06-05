@@ -1,0 +1,17 @@
+{
+  "title": "DepartmentInfo",
+  "description": "Информация об отделе",
+  "type": "object",
+  "writeNull": false,
+  "properties": {
+    "id": {
+      "type": ["integer", "null"],
+      "description": "Идентификатор"
+    },
+    "name": {
+      "type": ["string", "null"],
+      "description": "Наименование отдела"
+    }
+  },
+  "required": []
+}
